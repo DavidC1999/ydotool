@@ -100,6 +100,7 @@ There are a few extra options that can be configured when running CMake
 - SYSTEMD_USER_SERVICE=ON|OFF - whether to use systemd user service file, depends on ``systemd``. Default: ON
 - SYSTEMD_SYSTEM_SERVICE=ON|OFF - whether to use systemd system service file, depends on ``systemd``. Default: OFF
 - OPENRC=ON|OFF - whether to use openrc service file. Default: OFF (TBD)
+- YDOTOOLD_SERVICE_ARGS="..." - additional arguments appended to ydotoold in generated service files, for example ``-P 0660`` to change the socket permissions
 
 
 ### Compile
